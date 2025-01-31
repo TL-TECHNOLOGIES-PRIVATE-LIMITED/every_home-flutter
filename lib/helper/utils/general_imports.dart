@@ -14,6 +14,7 @@ export 'package:every_home_flutter/helper/general_widgets/toastAnimation.dart';
 export 'package:every_home_flutter/helper/general_widgets/message_container.dart';
 export 'package:every_home_flutter/model/geo_address.dart';
 export 'package:every_home_flutter/modules/intro/view/splash_screen.dart';
+export 'package:every_home_flutter/modules/intro/view/on_boarding.dart';
 
 export 'package:flutter_screenutil/flutter_screenutil.dart';
 export 'package:easy_localization/easy_localization.dart';

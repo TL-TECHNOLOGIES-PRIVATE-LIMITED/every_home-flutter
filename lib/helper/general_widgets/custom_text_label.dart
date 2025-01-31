@@ -1,5 +1,4 @@
 import 'package:every_home_flutter/helper/utils/general_imports.dart';
-import 'package:flutter/material.dart';
 
 class CustomTextLabel extends StatelessWidget {
   final String? text;
