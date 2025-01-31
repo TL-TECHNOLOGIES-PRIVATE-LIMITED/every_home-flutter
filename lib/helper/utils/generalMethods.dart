@@ -1,9 +1,6 @@
-import 'package:flutter/services.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:http/http.dart' as http;
-import 'package:intl/intl.dart';
 import 'package:every_home_flutter/helper/utils/general_imports.dart';
-import 'package:flutter/material.dart';
 
 enum MessageType { success, error, warning }
 
