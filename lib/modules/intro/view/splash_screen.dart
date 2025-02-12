@@ -1,4 +1,5 @@
 import 'package:every_home_flutter/helper/utils/general_imports.dart';
+import 'package:every_home_flutter/modules/intro/view/welcome_screen.dart';
 
 class ScreenSplash extends StatefulWidget {
   const ScreenSplash({super.key});
@@ -11,8 +12,8 @@ class _ScreenSplashState extends State<ScreenSplash> {
   @override
   void initState() {
     Future.delayed(const Duration(seconds: 3)).then((_) {
-      Navigator.push(context,
-          MaterialPageRoute(builder: (ctx) => const ScreenOnBoarding()));
+      Navigator.push(
+          context, MaterialPageRoute(builder: (ctx) => const WelcomeScreen()));
     });
     super.initState();
   }

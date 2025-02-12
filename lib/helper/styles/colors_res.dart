@@ -93,6 +93,7 @@ class ColorsRes {
     brightness: Brightness.light,
     scaffoldBackgroundColor: bgColorLight,
     cardColor: cardColorLight,
+    fontFamily: 'Inter',
     iconTheme: IconThemeData(
       color: grey,
     ),
@@ -118,6 +119,7 @@ class ColorsRes {
     brightness: Brightness.dark,
     scaffoldBackgroundColor: bgColorDark,
     cardColor: cardColorDark,
+    fontFamily: 'Inter',
     iconTheme: IconThemeData(
       color: grey,
     ),
